@@ -15,7 +15,7 @@ spec:
         name: gogs
     spec:
       containers:
-      - image: quay.io/mavazque/gogs:0.11.91
+      - image: docker.io/gogs/gogs:latest
         name: gogs
         ports:
         - containerPort: 3000
